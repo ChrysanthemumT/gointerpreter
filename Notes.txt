@@ -1,0 +1,20 @@
+parsing is a solved problem;
+
+parser generators generate parsers for specific languages from specified inputs,
+most commonly CGF (context free grammar) as their inputs, which is a set of rules that 
+describe how to form correct sentences in a language. Most common formats, Backus-Naur Form (BNF),
+or Extended Backus-Naur Form (EBNF)
+
+PrimaryExpression ::="this"
+        |ObjectLiteral
+        |("("Expression")")
+        ............ Example of EcmaScript syntax in BNF
+parsers Yacc/bison for c-based languages, ANTLR (another tool for language recognition) for java C# python +
+
+top-down parsing :recursive descent parsing, early parsing, predictive parsing
+bottom-up parsing
+
+parser for Monkeylang => recursive descent parser, "top down operator precednce" refered to as Pratt parser
+after Vaughan Pratt
+
+
