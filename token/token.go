@@ -24,7 +24,7 @@ const (
     SLASH = "/"
 
     LT = "<"
-    RT = ">"
+    GT = ">"
 
     //Delimiters
     COMMA = ","
